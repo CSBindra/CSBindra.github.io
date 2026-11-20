@@ -4,9 +4,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Chiranjeev Singh Bindra | Data Scientist & ML / AI Engineer</title>
-<meta name="description" content="Data Scientist and Machine Learning / AI Engineer (LLMs, RAG, agentic AI, MLOps). MSc AI, University of Amsterdam. Ex-KPN, Gartner, Fidelity. Based in the Netherlands.">
+<meta name="description" content="Data Scientist and ML / AI Engineer with five years of industry experience building ML and GenAI solutions. RAG, agentic AI, explainable ML and peer-reviewed research. MSc AI, University of Amsterdam.">
 <meta property="og:title" content="Chiranjeev Singh Bindra | Data Scientist & ML / AI Engineer">
-<meta property="og:description" content="LLMs, RAG, agentic AI, explainable ML and MLOps. MSc AI, University of Amsterdam.">
+<meta property="og:description" content="Five years of experience delivering ML and GenAI solutions, with research in explainable AI and multimodal retrieval. MSc AI, University of Amsterdam.">
 <meta property="og:type" content="website">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"Person","name":"Chiranjeev Singh Bindra","jobTitle":"Data Scientist & ML / AI Engineer","alumniOf":"University of Amsterdam","sameAs":["https://www.linkedin.com/in/chiranjeev-bindra/","https://github.com/CSBindra","https://scholar.google.com/citations?hl=en&user=de_tr0AAAAAJ"]}
@@ -70,20 +70,19 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
 </style>
 </head>
 <body>
-
 <nav>
   <div class="wrap">
     <a href="#about">About</a>
+    <a href="#projects">Projects</a>
     <a href="#experience">Experience</a>
     <a href="#research">Research</a>
-    <a href="#projects">Projects</a>
     <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
     <a href="#contact">Contact</a>
   </div>
 </nav>
 
 <main class="wrap" id="top">
-
 <header class="hero">
   <div class="eyebrow">Data Scientist &middot; ML / AI Engineer</div>
   <h1>Chiranjeev Singh Bindra</h1>
@@ -97,11 +96,9 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
   <div class="badges">
     <span class="badge">MSc AI, University of Amsterdam</span>
     <span class="badge">Netherlands</span>
-    <span class="badge">Authorized to work in NL, no sponsorship needed</span>
     <span class="badge">Available immediately</span>
   </div>
 </header>
-
 <section id="about">
   <h2>About</h2>
   <p>I'm a Data Scientist and AI Engineer with five years of industry experience developing Python-based ML and GenAI solutions across financial services, telecommunications and technology advisory. My work spans building production-oriented AI applications, automating business processes and developing explainable machine learning models.</p>
@@ -109,14 +106,41 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
   <div class="stats">
     <div class="stat"><b>5 yrs</b><span>industry experience</span></div>
     <div class="stat"><b>14 &rarr; 1 days</b><span>yearly realignment process, via RAG</span></div>
-    <div class="stat"><b>+20%</b><span>kNN accuracy from LoRA embedding fine-tuning</span></div>
+    <div class="stat"><b>+20%</b><span>kNN accuracy improvement from LoRA embedding fine-tuning</span></div>
     <div class="stat"><b>2</b><span>peer-reviewed publications</span></div>
   </div>
 </section>
-
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Research Companion<span class="tag">Live app</span></h3>
+      <div class="meta">LangGraph &middot; arXiv API &middot; LangSmith &middot; 2026</div>
+      <p>A research agent that calls the arXiv API as a tool, retrieves the 3 most recent papers for a topic and category, and writes a structured report on experiments, gaps, baselines and research directions. Runs are traced with LangSmith, with retries and backoff for rate limits and flaky LLM responses.</p>
+      <div class="links"><a href="https://huggingface.co/spaces/CSBindra/Research-Companion" target="_blank" rel="noopener">Try it &rarr;</a></div>
+    </div>
+    <div class="card">
+      <h3>Python Library Document QA Agent<span class="tag">Live app</span></h3>
+      <div class="meta">LangGraph &middot; ChromaDB &middot; hybrid retrieval &middot; 2026</div>
+      <p>An agent that finds a library's official documentation and answers questions with source citations, using ChromaDB with live web fetching as a fallback. Adds validation around LLM output, including URL verification, and handles malformed tool calls and brittle JSON parsing.</p>
+      <div class="links"><a href="https://huggingface.co/spaces/CSBindra/python-lib-docs-agent" target="_blank" rel="noopener">Try it &rarr;</a></div>
+    </div>
+    <div class="card">
+      <h3>Supervised Contrastive Learning for Universal Emotion Embeddings</h3>
+      <div class="meta">BERT &middot; contrastive learning &middot; 2025</div>
+      <p>A universal emotion embedding encoder that transfers across datasets with different annotation schemes. Fine-tuned a BERT encoder with supervised contrastive learning and evaluated generalization on multiple downstream emotion understanding tasks.</p>
+      <div class="links"><a href="https://github.com/CSBindra/Universal_Emotion_Embedding" target="_blank" rel="noopener">Code &rarr;</a></div>
+    </div>
+    <div class="card">
+      <h3>Lost in Compression: Do Low-Resource Languages Suffer More?</h3>
+      <div class="meta">Quantization &middot; machine translation &middot; 2025</div>
+      <p>Quantized the multilingual translation model TowerInstruct-v1 and benchmarked it against Llama-2. Built a custom quantization wrapper supporting 1 to 16 bit precision and evaluated results across high-, mid- and low-resource languages with BLEU and COMET.</p>
+      <div class="links"><a href="https://github.com/CSBindra/Lost-in-compression" target="_blank" rel="noopener">Code &rarr;</a></div>
+    </div>
+  </div>
+</section>
 <section id="experience">
   <h2>Experience</h2>
-
   <div class="card">
     <h3>AI Researcher, KPN</h3>
     <div class="meta">Amsterdam, Netherlands &middot; Jan 2026 &ndash; Aug 2026 &middot; MSc thesis project</div>
@@ -128,7 +152,6 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
       <li>Validated explanation quality through human review (Cohen's kappa 0.69) and presented findings to stakeholders in business terms.</li>
     </ul>
   </div>
-
   <div class="card">
     <h3>Senior Data Analyst, Data Science &amp; GenAI, Gartner</h3>
     <div class="meta">Gurugram, India &middot; May 2022 &ndash; Aug 2024</div>
@@ -140,7 +163,6 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
       <li>Mentored 2 junior developers.</li>
     </ul>
   </div>
-
   <div class="card">
     <h3>Software Engineer, Behavioural Finance &amp; NLP, Fidelity International</h3>
     <div class="meta">Gurugram, India &middot; Jul 2019 &ndash; May 2022</div>
@@ -152,21 +174,18 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
     </ul>
   </div>
 </section>
-
 <section id="research">
   <h2>Research</h2>
-
   <div class="card">
     <h3>RE-TRIANGLE: Does TRIANGLE Enable Multimodal Alignment Beyond Cosine Similarity in Retrieval?<span class="tag">ACM SIGIR 2026</span></h3>
     <ul>
-      <li>As lead implementer, built the PyTorch codebase from scratch and verified a +8.7 Recall@1 gain over a cosine similarity baseline, identifying limits in cross-domain generalization on new datasets.</li>
+      <li>As lead implementer, built the PyTorch codebase from scratch and reproduced Recall@1 gains of up to 8.7 percentage points over pairwise baselines, while identifying limitations in cross-domain generalization.</li>
     </ul>
     <div class="links">
       <a href="https://arxiv.org/abs/2605.27436" target="_blank" rel="noopener">Paper &rarr;</a>
       <a href="https://github.com/CSBindra/Triangle_Reproduce" target="_blank" rel="noopener">Code &rarr;</a>
     </div>
   </div>
-
   <div class="card">
     <h3>Reproducibility Study of SLICE: Stabilized LIME for Consistent Explanations for Image Classification<span class="tag">TMLR 2025</span></h3>
     <ul>
@@ -178,42 +197,6 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
     </div>
   </div>
 </section>
-
-<section id="projects">
-  <h2>Projects</h2>
-  <div class="grid">
-
-    <div class="card">
-      <h3>Research Companion<span class="tag">Live app</span></h3>
-      <div class="meta">LangGraph &middot; arXiv API &middot; LangSmith &middot; 2026</div>
-      <p>A research agent that calls the arXiv API as a tool, retrieves the 3 most recent papers for a topic and category, and writes a structured report on experiments, gaps, baselines and research directions. Runs are traced with LangSmith, with retries and backoff for rate limits and flaky LLM responses.</p>
-      <div class="links"><a href="https://huggingface.co/spaces/CSBindra/Research-Companion" target="_blank" rel="noopener">Try it &rarr;</a></div>
-    </div>
-
-    <div class="card">
-      <h3>Python Library Document QA Agent<span class="tag">Live app</span></h3>
-      <div class="meta">LangGraph &middot; ChromaDB &middot; hybrid retrieval &middot; 2026</div>
-      <p>An agent that finds a library's official documentation and answers questions with source citations, using ChromaDB with live web fetching as a fallback. Adds validation around LLM output, including URL verification, and handles malformed tool calls and brittle JSON parsing.</p>
-      <div class="links"><a href="https://huggingface.co/spaces/CSBindra/python-lib-docs-agent" target="_blank" rel="noopener">Try it &rarr;</a></div>
-    </div>
-
-    <div class="card">
-      <h3>Supervised Contrastive Learning for Universal Emotion Embeddings</h3>
-      <div class="meta">BERT &middot; contrastive learning &middot; 2025</div>
-      <p>A universal emotion embedding encoder that transfers across datasets with different annotation schemes. Fine-tuned a BERT encoder with supervised contrastive learning and evaluated generalization on multiple downstream emotion understanding tasks.</p>
-      <div class="links"><a href="https://github.com/CSBindra/Universal_Emotion_Embedding" target="_blank" rel="noopener">Code &rarr;</a></div>
-    </div>
-
-    <div class="card">
-      <h3>Lost in Compression: Do Low-Resource Languages Suffer More?</h3>
-      <div class="meta">Quantization &middot; machine translation &middot; 2025</div>
-      <p>Quantized the multilingual translation model TowerInstruct-v1 and benchmarked it against Llama-2. Built a custom quantization wrapper supporting 1 to 16 bit precision and evaluated results across high-, mid- and low-resource languages with BLEU and COMET.</p>
-      <div class="links"><a href="https://github.com/CSBindra/Lost-in-compression" target="_blank" rel="noopener">Code &rarr;</a></div>
-    </div>
-
-  </div>
-</section>
-
 <section id="skills">
   <h2>Skills</h2>
   <dl class="skills">
@@ -227,15 +210,16 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
     </dd>
     <dt>MLOps &amp; Cloud</dt>
     <dd>
-      <span class="chip">Azure (AZ-900)</span><span class="chip">Docker</span><span class="chip">CI/CD</span><span class="chip">MLflow</span><span class="chip">Airflow</span><span class="chip">Weights &amp; Biases</span><span class="chip">FastAPI</span><span class="chip">Langfuse</span><span class="chip">Prometheus</span><span class="chip">Grafana</span>
+      <span class="chip">Azure (AZ-900)</span><span class="chip">Docker</span><span class="chip">CI/CD</span><span class="chip">MLflow</span><span class="chip">Airflow</span><span class="chip">Weights &amp; Biases</span><span class="chip">Langfuse</span><span class="chip">Prometheus</span><span class="chip">Grafana</span>
     </dd>
     <dt>Python &amp; Data Engineering</dt>
     <dd>
-      <span class="chip">Python</span><span class="chip">SQL</span><span class="chip">pandas</span><span class="chip">NumPy</span><span class="chip">PySpark</span><span class="chip">ETL (Oracle, Hadoop)</span><span class="chip">pytest</span><span class="chip">asyncio</span><span class="chip">Streamlit</span><span class="chip">Git / GitHub</span>
+      <span class="chip">Python</span><span class="chip">FastAPI</span><span class="chip">SQL</span><span class="chip">pandas</span><span class="chip">NumPy</span><span class="chip">PySpark</span><span class="chip">ETL (Oracle, Hadoop)</span><span class="chip">pytest</span><span class="chip">asyncio</span><span class="chip">Streamlit</span><span class="chip">Git / GitHub</span>
     </dd>
   </dl>
-
-  <h2 style="margin-top:36px">Education</h2>
+</section>
+<section id="education">
+  <h2>Education</h2>
   <div class="card">
     <h3>MSc Artificial Intelligence, University of Amsterdam</h3>
     <div class="meta">Sep 2024 &ndash; Aug 2026</div>
@@ -248,17 +232,15 @@ footer{padding:36px 0 56px;border-top:1px solid var(--line);color:var(--muted);f
   </div>
   <p class="meta">Languages: English (professional fluency), Dutch (A1, improving).</p>
 </section>
-
 <section id="contact">
   <h2>Contact</h2>
-  <p>I'm open to Data Science and ML / AI Engineering roles in the Netherlands and available to start immediately. I hold a Dutch orientation year (zoekjaar) permit, so no employer sponsorship is needed until 11 November 2027.</p>
+  <p>I'm open to Data Science and ML / AI Engineering opportunities in the Netherlands and available to start immediately. Feel free to reach out about relevant roles or collaborations.</p>
   <div class="cta">
     <a class="btn primary" href="mailto:csinghbindra@gmail.com">csinghbindra@gmail.com</a>
     <a class="btn" href="https://www.linkedin.com/in/chiranjeev-bindra/" target="_blank" rel="noopener">LinkedIn</a>
     <a class="btn" href="https://github.com/CSBindra" target="_blank" rel="noopener">GitHub</a>
   </div>
 </section>
-
 </main>
 
 <footer>
